@@ -76,6 +76,7 @@ const Index = () => {
 
     setName('');
     setEmail('');
+    setId(null);
     toggleFormState();
   };
 
