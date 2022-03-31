@@ -3,14 +3,10 @@ import {
   Flex,
   Text,
   Box,
-  FormControl,
-  FormLabel,
-  Input,
   VStack,
   Table,
   Thead,
   Tbody,
-  Tfoot,
   Tr,
   Th,
   Td,
@@ -20,7 +16,9 @@ import {
 
 import { FiEdit, FiDelete } from 'react-icons/fi';
 
-export default function Index() {
+import InputForm from '../components/InputForm';
+
+const Index = () => {
   return (
     <Box w={700} margin={4}>
       <Flex color={'white'} justifyContent={'space-between'} marginY={4}>
@@ -30,17 +28,9 @@ export default function Index() {
         <Button colorScheme={'blue'}>+</Button>
       </Flex>
 
-      <VStack marginY={2}>
-        <FormControl marginY="1rem">
-          <FormLabel>Nome</FormLabel>
-          <Input type="text" />
-        </FormControl>
-
-        <FormControl marginY="1rem">
-          <FormLabel>E-mail</FormLabel>
-          <Input type="email" />
-        </FormControl>
-
+      <VStack marginY={4}>
+        <InputForm label="Nome" name="name" />
+        <InputForm label="Email" name="email" type="email" />
         <Button colorScheme="blue" size="sm" alignSelf={'flex-end'}>
           Cadastro
         </Button>
@@ -78,4 +68,6 @@ export default function Index() {
       </TableContainer>
     </Box>
   );
-}
+};
+
+export default Index;
