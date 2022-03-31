@@ -40,6 +40,12 @@ const Index = () => {
       setErrors({ email: 'Email obrigatório' });
       return false;
     }
+
+    if (clients.some(client => client.email === email && client._id !== id)) {
+      setErrors({ email: 'Esse endereço de email jé está em uso' });
+      return;
+    }
+
     setErrors({});
     return true;
   };
