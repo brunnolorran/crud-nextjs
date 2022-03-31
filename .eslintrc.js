@@ -29,7 +29,7 @@ export default {
   ],
   rules: {
     'no-console': 'error',
-    'react/react-in-jsx-scope': 'off',
+    'react/react-in-jsx-scope': 'error',
     'react/prop-types': 'off',
     'unicorn/filename-case': 'off'
   }
