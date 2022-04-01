@@ -13,10 +13,10 @@ NextJS e Serverless Routes
 
 # Foi utilizado 👇
 
-👉 NextJS (API Routes) 🔥
-👉 Serverless 🔥
-👉 Interface Declarativa (Chakra UI) 📸
-👉 MongoDB & Mongoose 💚
+- 👉 NextJS (API Routes) 🔥
+- 👉 Serverless 🔥
+- 👉 Interface Declarativa (Chakra UI) 📸
+- 👉 MongoDB & Mongoose 💚
 
 # View
 (Adicionar GIF)
