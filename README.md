@@ -13,21 +13,21 @@ NextJS e Serverless Routes
 
 # Foi utilizado 👇
 
-- 👉 NextJS (API Routes) 🔥
-- 👉 Serverless 🔥
-- 👉 Interface Declarativa (Chakra UI) 📸
-- 👉 MongoDB & Mongoose 💚
+- NextJS (API Routes) 🔥
+- Serverless 🔥
+- Interface Declarativa (Chakra UI) 📸
+- MongoDB & Mongoose 💚
 
 # View
 (Adicionar GIF)
 
 # Etapas para intalação:
 
-1 - Clonar repositório;
-2 - Instalar Dependencias;
+- 1: Clonar repositório;
+- 2: Instalar Dependencias;
       > yarn install ou npm install
-3 - Criar um cluster no MongoDB Atlas;
-4 - Criar arquivo '.env.local' na raiz do projeto e adicionar variavel ABAIXO
+- 3: Criar um cluster no MongoDB Atlas;
+- 4: Criar arquivo '.env.local' na raiz do projeto e adicionar variavel ABAIXO
       NEXT_PUBLIC_MONGO_URI={{uri gerada pelo cluster no mongo atlas}};
-5 - Rodar App
+- 5: Rodar App
       > yarn dev
