@@ -1,5 +1,5 @@
-import Client from '../../models/Client';
-import dbConnect from '../../services/db';
+import Client from '../../../models/Client';
+import dbConnect from '../../../services/db';
 
 dbConnect();
 
@@ -21,8 +21,8 @@ export default async function handler(req, res) {
     case 'POST':
       try {
         const { name, email } = req.body;
-        if (name && email) throw 'invalid data';
-        const client = await Client.create({ name, emai });
+        if (!name && !email) throw 'invalid data';
+        const client = await Client.create({ name, email });
         res.status(201).json({ sucess: true, data: client });
       } catch (err) {
         console.log(err);
