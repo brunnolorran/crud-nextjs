@@ -19,7 +19,9 @@ NextJS e Serverless Routes
 - MongoDB & Mongoose 💚
 
 # View
-(Adicionar GIF)
+![crud](https://user-images.githubusercontent.com/53384144/161301099-727e35fe-0569-4c31-ad3b-299f035d5403.gif)
+
+
 
 # Etapas para intalação:
 
