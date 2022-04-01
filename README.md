@@ -1,4 +1,4 @@
-# CRUD em NextJS
+# CRUD em NextJS e MongoDB
 
 Sistema de CRUD para cadastro de clientes.
 
